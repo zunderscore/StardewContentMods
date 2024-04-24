@@ -1,0 +1,48 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "wand": {
+                    "ID": "wand",
+                    "Category": "Default",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/whistle.wav}}"
+                    ],
+                    "Looped": false
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Fields": {
+                "Wand.cs.14318": {
+                    0: "{{i18n:ReturnScepter}}"
+                },
+                "Wand.cs.14319": {
+                    0: "{{i18n:ReturnScepter_Description}}"
+                }
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/tools",
+            "FromFile": "assets/whistle.png",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            },
+            "ToArea": {
+                "X": 32,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+            }
+        }
+    ]
+}
