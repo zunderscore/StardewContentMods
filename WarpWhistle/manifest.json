@@ -1,11 +1,13 @@
 {
     "Name": "[CP] SMB3 Warp Whistle",
     "Author": "zunderscore",
-    "Version": "1.0.1",
+    "Version": "1.0.2",
     "Description": "Changes the warp sound to the warp whistle from SMB3",
     "UniqueID": "zunderscore.WarpWhistle",
     "MinimumApiVersion": "4.0.0",
-    "UpdateKeys": [],
+    "UpdateKeys": [
+        "Nexus:23134"
+    ],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
     }
